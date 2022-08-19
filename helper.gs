@@ -1,5 +1,4 @@
-function request(url, method, payload, json = true, access_token = "")
-{ 
+function request(url, method, payload, json = true, access_token = "") { 
   const header = {
     "Content-Type": "application/json"
   };
